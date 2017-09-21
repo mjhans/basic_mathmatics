@@ -43,6 +43,16 @@ class Matrix:
 			print("ERROR, Matrix info not matched")
 		
 		return Matrix(matrix)
+
+	def T(self):
+		Tmatrix = list()
+		for i in range(self.COL):
+			col = list()
+			for j in range(self.ROW):
+				col.append(self.ELEM[j][i])
+			Tmatrix.append(col)
+		return Matrix(Tmatrix)
+
 	
 @profile
 def do_dot(a, b):
