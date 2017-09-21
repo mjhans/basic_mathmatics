@@ -17,10 +17,10 @@ def file_open():
         for row in readCSV:
             Xm = list()
             Xm.append(1)
-            Xm.append(float(row[1]))
+            Xm.append(float(row[0]))
             Xmn.append(Xm)
 
-            Ym1.append([float(row[2])])
+            Ym1.append([float(row[1])])
 
     return (Xmn, Ym1,)
 
