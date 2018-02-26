@@ -142,3 +142,4 @@ fabric.properties
 .idea/
 *.csv
 !CF_data.csv
+.DS_Store
