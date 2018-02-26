@@ -138,3 +138,7 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+## user define
+.idea/
+*.csv
+!CF_data.csv
